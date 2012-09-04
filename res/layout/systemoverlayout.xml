@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <com.matsuhiro.android.widget.SystemOverlayLinearLayout android:id="@+id/overlay"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000" >
+        <com.matsuhiro.android.widget.MarqueeView
+            xmlns:app="http://schemas.android.com/apk/res/com.matsuhiro.android.itsutopi"
+            android:id="@+id/marquee_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:textSize="25sp"
+            app:textColor="#FFFFFFFF"
+            app:background="#a0000000"
+            app:textMoveSpeed="5"
+            app:repeatLimit="-1" />
+    </com.matsuhiro.android.widget.SystemOverlayLinearLayout>
+</LinearLayout>
